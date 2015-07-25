@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AdvancedRecyclerViewSample</string>
+    <string name="add_item">Add new item</string>
+    <string name="header">I am a header view!</string>
+</resources>

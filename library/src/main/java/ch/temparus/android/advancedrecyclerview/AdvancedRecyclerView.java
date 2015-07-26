@@ -1,4 +1,4 @@
-package ch.temparus.advancedrecyclerview;
+package ch.temparus.android.advancedrecyclerview;
 
 import android.content.Context;
 import android.support.v7.widget.GridLayoutManager;

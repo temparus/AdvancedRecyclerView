@@ -7,7 +7,7 @@
                 android:background="@color/black"
                 tools:context=".MainActivity">
 
-    <ch.temparus.advancedrecyclerview.AdvancedRecyclerView
+    <ch.temparus.android.advancedrecyclerview.AdvancedRecyclerView
             android:id="@+id/recycler_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

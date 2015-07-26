@@ -1,4 +1,4 @@
-package ch.temparus.advancedrecyclerview.sample;
+package ch.temparus.android.advancedrecyclerview.sample;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

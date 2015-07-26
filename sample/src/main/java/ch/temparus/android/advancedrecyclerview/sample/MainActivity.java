@@ -1,18 +1,16 @@
-package ch.temparus.advancedrecyclerview.sample;
+package ch.temparus.android.advancedrecyclerview.sample;
 
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
-import ch.temparus.advancedrecyclerview.DividerItemDecoration;
-import ch.temparus.advancedrecyclerview.AdvancedRecyclerView;
-import ch.temparus.advancedrecyclerview.LinearLayoutManager;
-
+import ch.temparus.android.advancedrecyclerview.DividerItemDecoration;
+import ch.temparus.android.advancedrecyclerview.AdvancedRecyclerView;
+import ch.temparus.android.advancedrecyclerview.LinearLayoutManager;
 
 public class MainActivity extends ActionBarActivity {
 
     private SampleAdapter mAdapter;
-    private AdvancedRecyclerView mRecyclerView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,11 +23,11 @@ public class MainActivity extends ActionBarActivity {
             mAdapter.addItem("Test-Item " + i);
         }
 
-        mRecyclerView = (AdvancedRecyclerView) findViewById(R.id.recycler_view);
-        mRecyclerView.setLayoutManager(new LinearLayoutManager(this, mAdapter));
-        //mRecyclerView.setLayoutManager(new GridLayoutManager(this, 2));
-        mRecyclerView.addItemDecoration(new DividerItemDecoration(this, DividerItemDecoration.VERTICAL_LIST));
-        mRecyclerView.setAdapter(mAdapter);
+        AdvancedRecyclerView recyclerView = (AdvancedRecyclerView) findViewById(R.id.recycler_view);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this, mAdapter));
+        //recyclerView.setLayoutManager(new GridLayoutManager(this, 2));
+        recyclerView.addItemDecoration(new DividerItemDecoration(this, DividerItemDecoration.VERTICAL_LIST));
+        recyclerView.setAdapter(mAdapter);
     }
 
     @Override

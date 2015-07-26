@@ -1,11 +1,11 @@
-package ch.temparus.advancedrecyclerview.sample;
+package ch.temparus.android.advancedrecyclerview.sample;
 
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-import ch.temparus.advancedrecyclerview.BaseAdapter;
+import ch.temparus.android.advancedrecyclerview.BaseAdapter;
 
 import java.util.ArrayList;
 import java.util.List;

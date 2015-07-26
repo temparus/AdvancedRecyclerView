@@ -1,4 +1,4 @@
-package ch.temparus.advancedrecyclerview;
+package ch.temparus.android.advancedrecyclerview;
 
 import android.view.View;
 import android.view.ViewGroup;

@@ -1,4 +1,4 @@
-package ch.temparus.advancedrecyclerview;
+package ch.temparus.android.advancedrecyclerview;
 
 import java.util.List;
 

@@ -6,7 +6,7 @@ This library for Android provides advanced functionality for Google's RecyclerVi
 Features included:
 - EmptyView if adapter is empty (provided by RecyclerView itself or by the connected Adapter)
 - Floating headers at the top of the scroll area.
-- Support of layout size ```wrap_content``` when using LinearLayout of this library.
+- Support of ```wrap_content``` when using the LinearLayoutManager of this library.
 - Padding implemented in LayoutManager, so the edge effect is not affected by padding.
 
 ## Download
@@ -14,14 +14,14 @@ Features included:
 gradle:
 
 ```groovy
-compile 'ch.temparus.advancedrecyclerview:library:1.0.0'
+compile 'ch.temparus.android:advancedrecyclerview:1.0.0'
 ```
 
 Maven:
 ```xml
 <dependency>
-  <groupId>ch.temparus.advancedrecyclerview</groupId>
-  <artifactId>library</artifactId>
+  <groupId>ch.temparus.android</groupId>
+  <artifactId>advancedrecyclerview</artifactId>
   <version>1.0.0</version>
   <type>aar</type>
 </dependency>

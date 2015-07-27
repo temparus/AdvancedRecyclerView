@@ -4,7 +4,7 @@ AdvancedRecyclerView
 This library for Android provides advanced functionality for Google's RecyclerView.
 
 Features included:
-- EmptyView if adapter is empty (provided by RecyclerView itself or by the connected Adapter)
+- EmptyView if adapter is empty (provided by the AdvancedRecyclerView itself or by the connected Adapter)
 - Floating headers at the top of the scroll area.
 - Support of ```wrap_content``` when using the LinearLayoutManager of this library.
 - Padding implemented in LayoutManager, so the edge effect is not affected by padding.
@@ -29,9 +29,9 @@ Maven:
 
 ## Usage
 
-You can use the HeaderRecyclerView the same way as you would use Google's RecyclerView.
+You can use the AdvancedRecyclerView the same way as you would use Google's RecyclerView.
 
-To use the advanced functionality of the HeaderRecyclerView, you should extend your Adapter from the BaseAdapter of this library.
+To use the advanced functionality of the AdvancedRecyclerView, you should extend your Adapter from the BaseAdapter of this library.
 
 You can find a working example in the ```sample``` directory of this repository.
 

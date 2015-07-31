@@ -3,6 +3,8 @@ AdvancedRecyclerView
 
 This library for Android provides advanced functionality for Google's RecyclerView.
 
+**Minimum SDK** is **7** (Android 2.1.x Eclair).
+
 Features included:
 - EmptyView if adapter is empty (provided by the AdvancedRecyclerView itself or by the connected Adapter)
 - Floating headers at the top of the scroll area.
@@ -43,6 +45,12 @@ If you call ```adapter.notifyDatasetHasChanged()```, the list behaves as expecte
 This error is caused whenever recycler.getViewForPosition(position) is called. See method ```measureChild()```.
 
 If you have an idea how to resolve this issue, please drop me a line or even a pull request. Your help is very appreciated.
+
+## Development
+
+You can find a verion in development state in the develop branch of this repository. It may contain more bugfixes and extended functionality.
+
+**Attention!** This version is still in development, may be unstable and should not be used in production! Please use the official release in the master branch for production.
 
 ## Change Log
 

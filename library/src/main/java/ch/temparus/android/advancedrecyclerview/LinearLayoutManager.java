@@ -1,6 +1,7 @@
 package ch.temparus.android.advancedrecyclerview;
 
 import android.content.Context;
+import android.graphics.Rect;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
@@ -257,11 +258,13 @@ public class LinearLayoutManager extends android.support.v7.widget.LinearLayoutM
 
         child.measure(childWidthSpec, childHeightSpec);
 
-        dimension.width = getDecoratedMeasuredWidth(child) + p.leftMargin + p.rightMargin;
-        dimension.height = getDecoratedMeasuredHeight(child) + p.bottomMargin + p.topMargin;
+        Rect rect = new Rect();
+        calculateItemDecorationsForChild(child, rect);
+
+        dimension.width = rect.width() + child.getMeasuredWidth() + p.leftMargin + p.rightMargin;
+        dimension.height = rect.height() + child.getMeasuredHeight() + p.bottomMargin + p.topMargin;
 
         child.invalidate();
-
         recycler.recycleView(child);
     }
 

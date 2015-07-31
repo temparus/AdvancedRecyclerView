@@ -25,7 +25,7 @@ public class MainActivity extends ActionBarActivity {
 
         AdvancedRecyclerView recyclerView = (AdvancedRecyclerView) findViewById(R.id.recycler_view);
         recyclerView.setLayoutManager(new LinearLayoutManager(this, mAdapter));
-        //recyclerView.setLayoutManager(new GridLayoutManager(this, 2));
+        //recyclerView.setLayoutManager(new GridLayoutManager(this, 2, mAdapter));
         recyclerView.addItemDecoration(new DividerItemDecoration(this, DividerItemDecoration.VERTICAL_LIST));
         recyclerView.setAdapter(mAdapter);
     }

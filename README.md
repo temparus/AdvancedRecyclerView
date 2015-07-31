@@ -3,6 +3,8 @@ AdvancedRecyclerView
 
 This library for Android provides advanced functionality for Google's RecyclerView.
 
+**Minimum SDK** is **9** (Android 2.3.x Gingerbread).
+
 **Attention!** This is a development version, may be unstable and should not be used in production.
 
 Features included:

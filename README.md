@@ -48,7 +48,7 @@ If you have an idea how to resolve this issue, please drop me a line or even a p
 
 ## Development
 
-You can find a verion in development state in the develop branch of this repository. It may contain more bugfixes and extended functionality.
+You can find a version in development state in the develop branch of this repository. It may contain more bugfixes and extended functionality.
 
 **Attention!** This version is still in development, may be unstable and should not be used in production! Please use the official release in the master branch for production.
 

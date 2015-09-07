@@ -5,8 +5,6 @@ This library for Android provides advanced functionality for Google's RecyclerVi
 
 **Minimum SDK** is **9** (Android 2.3.x Gingerbread).
 
-**Attention!** This is a development version, may be unstable and should not be used in production.
-
 Features included:
 
 - EmptyView if adapter is empty (provided by the AdvancedRecyclerView itself or by the connected Adapter)
@@ -20,7 +18,7 @@ Features included:
 gradle:
 
 ```groovy
-compile 'ch.temparus.android:advancedrecyclerview:1.1.0-SNAPSHOT'
+compile 'ch.temparus.android:advancedrecyclerview:1.1.0'
 ```
 
 Maven:
@@ -28,7 +26,7 @@ Maven:
 <dependency>
   <groupId>ch.temparus.android</groupId>
   <artifactId>advancedrecyclerview</artifactId>
-  <version>1.1.0-SNAPSHOT</version>
+  <version>1.1.0</version>
   <type>aar</type>
 </dependency>
 ```

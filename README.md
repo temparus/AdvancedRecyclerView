@@ -3,12 +3,14 @@ AdvancedRecyclerView
 
 This library for Android provides advanced functionality for Google's RecyclerView.
 
-**Minimum SDK** is **7** (Android 2.1.x Eclair).
+**Minimum SDK** is **9** (Android 2.3.x Gingerbread).
 
 Features included:
+
 - EmptyView if adapter is empty (provided by the AdvancedRecyclerView itself or by the connected Adapter)
 - Floating headers at the top of the scroll area.
-- Support of ```wrap_content``` when using the LinearLayoutManager of this library.
+- Support of ```wrap_content``` when using the LinearLayoutManager or GridLayoutManager of this library.
+- Support of OverScrollMode ```ifContentScrolls```.
 - Padding implemented in LayoutManager, so the edge effect is not affected by padding.
 
 ## Download
@@ -16,7 +18,7 @@ Features included:
 gradle:
 
 ```groovy
-compile 'ch.temparus.android:advancedrecyclerview:1.0.2'
+compile 'ch.temparus.android:advancedrecyclerview:1.1.0'
 ```
 
 Maven:
@@ -24,7 +26,7 @@ Maven:
 <dependency>
   <groupId>ch.temparus.android</groupId>
   <artifactId>advancedrecyclerview</artifactId>
-  <version>1.0.2</version>
+  <version>1.1.0</version>
   <type>aar</type>
 </dependency>
 ```
